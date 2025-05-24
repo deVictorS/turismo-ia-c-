@@ -1,28 +1,27 @@
 <div align="center"> 
 
-# Turismo Inteligente com IA em C#
+# Smart Tourism with AI in C#
 
-### Algoritmo de Recomendação de Pacotes de Viagem
+### Travel Package Recommendation Algorithm
 
-Este projeto é um **software de recomendação de pacotes de viagem**, desenvolvido em **C#**, com integração ao **MySQL** e à **API do ChatGPT**. O sistema analisa as preferências de viagem informadas pelo cliente e sugere os destinos mais compatíveis, com foco em desenvolvimento inteligente, experiência personalizada e automação de atendimento.
+This project is a **travel package recommendation software**, developed in **C#**, integrated with **MySQL** and the **ChatGPT API**. The system analyzes the customer's travel preferences and suggests the most compatible destinations, focusing on intelligent development, personalized experience, and service automation.
 
 ---
 </div>
 
-## Tecnologias Utilizadas
+## Technologies Used
 - C# (.NET)
 - MySQL
-- API do ChatGPT (OpenAI)
+- ChatGPT API (OpenAI)
 - JSON
 - Console Application
 
 ---
 
-## Funcionalidades
-- Cadastro de clientes e preferências de viagem
-- Armazenamento dos dados em banco de dados relacional (MySQL)
-- Consulta à API da OpenAI para análise e recomendação
-- Sugestão de pacotes personalizados com base em linguagem natural
+## Features
+- Customer and travel preference registration  
+- Data storage in a relational database (MySQL)  
+- Querying the OpenAI API for analysis and recommendations  
+- Personalized package suggestions based on natural language input
 
 ---
-
