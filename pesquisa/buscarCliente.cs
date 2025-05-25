@@ -1,8 +1,9 @@
 using System;
 using MySql.Data.MySqlClient;
 using Org.BouncyCastle.Crypto.Engines;
+using bancoDados;
 
-namespace software
+namespace pesquisa
 {
     public class buscarCliente
     {

@@ -2,7 +2,7 @@ using System;
 using DotNetEnv;
 using MySql.Data.MySqlClient;
 
-namespace software
+namespace pesquisa
 {
     public class listarPacotes
     {

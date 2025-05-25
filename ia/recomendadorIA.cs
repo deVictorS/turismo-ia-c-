@@ -1,12 +1,14 @@
 using System;
+using System.Collections.Generic;
 using System.Net.Http;
 using System.Net.Http.Headers;
 using System.Text;
 using System.Text.Json;
 using System.Threading.Tasks;
 using DotNetEnv;
+using bancoDados;
 
-namespace software
+namespace ia
 {
     public class RecomendadorIA
     {
@@ -21,11 +23,20 @@ namespace software
             Env.TraversePath().Load();
             string apiKey = Environment.GetEnvironmentVariable("OPENAI_API_KEY");
 
+            // Buscar os pacotes do banco
+            var pacotes = PacoteDAO.BuscarDescricoesPacotes();
+            if (pacotes.Count == 0)
+            {
+                return "Nenhum pacote disponível para recomendação.";
+            }
+
+            string todasDescricoes = string.Join("\n", pacotes);
+
             using var client = new HttpClient();
             client.DefaultRequestHeaders.Authorization =
                 new AuthenticationHeaderValue("Bearer", apiKey);
 
-            var prompt = $"Com base nas preferências de viagem: '{Preferencias}', diga apenas palavras-chave de destinos ideais (ex: praia, montanha, cultura, aventura).";
+            var prompt = $"Com base nas preferências de viagem: '{Preferencias}', recomende o pacote ideal entre as seguintes opções:\n{todasDescricoes}";
 
             var requestBody = new
             {
@@ -39,10 +50,6 @@ namespace software
 
             var jsonRequest = JsonSerializer.Serialize(requestBody);
             var content = new StringContent(jsonRequest, Encoding.UTF8, "application/json");
-
-            // Debug opcional
-            Console.WriteLine("\nJSON enviado para a OpenAI:");
-            Console.WriteLine(jsonRequest);
 
             try
             {

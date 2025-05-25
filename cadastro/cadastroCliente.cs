@@ -3,10 +3,11 @@ using MySql.Data.MySqlClient;
 using Org.BouncyCastle.Asn1.Misc;
 using Org.BouncyCastle.Cms;
 using PhoneNumbers;
+using bancoDados;
 
-namespace software
+namespace cadastro
 {
-    public class dadosCliente
+    public class cadastroCliente
     {
         public string Nome { get; set; }
         public string Genero { get; set; }
@@ -28,7 +29,7 @@ namespace software
 
         public static void Executar()
         {
-            dadosCliente cliente = new dadosCliente();
+            cadastroCliente cliente = new cadastroCliente();
 
             Console.WriteLine("\n---DADOS DO CLIENTE---");
 

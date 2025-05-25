@@ -1,5 +1,10 @@
 using System;
 using System.Threading.Tasks;
+using cadastro;
+using bancoDados;
+using ia;
+using pesquisa;
+
 
 
 namespace software
@@ -29,11 +34,11 @@ namespace software
                 switch (opcao)
                 {
                     case "1":
-                        dadosCliente.Executar();
+                        cadastroCliente.Executar();
                         break;
 
                     case "2":
-                        dadosPacote.Executar();
+                        cadastroPacote.Executar();
                         break;
 
                     case "3":

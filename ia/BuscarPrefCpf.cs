@@ -1,7 +1,8 @@
 using System;
 using MySql.Data.MySqlClient;
+using bancoDados;
 
-namespace software;
+namespace ia;
 
 public class BuscarPrefCpf
 {

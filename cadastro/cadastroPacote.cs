@@ -1,9 +1,10 @@
 using System;
 using MySql.Data.MySqlClient;
+using bancoDados;
 
-namespace software
+namespace cadastro
 {
-    public class dadosPacote
+    public class cadastroPacote
     {
         public string Origem { get; set; }
         public string Destino { get; set; }
@@ -18,7 +19,7 @@ namespace software
         public static void Executar()
         {
 
-            dadosPacote pacote = new dadosPacote();
+            cadastroPacote pacote = new cadastroPacote();
 
             Console.WriteLine("\n---DADOS DO PACOTE---");
 

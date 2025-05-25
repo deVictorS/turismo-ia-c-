@@ -1,0 +1,28 @@
+# Arquivos de ambiente
+.env
+
+# Pastas de build
+/bin/
+/obj/
+
+# Configurações do VS Code
+.vscode/
+
+# Arquivos compilados
+*.dll
+*.exe
+*.pdb
+
+# Arquivos de log e temporários
+*.log
+*.tmp
+*.bak
+
+# Arquivos de IDEs
+*.user
+*.suo
+*.sln.docstates
+
+# Cache de pacotes
+packages/
+.nuget/

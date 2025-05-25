@@ -1,17 +1,18 @@
 using System;
 using MySql.Data.MySqlClient;
+using bancoDados;
 
-namespace software
+namespace pesquisa
 {
-    public class buscarPacoteOrigem
+    public class buscarPacoteDestino
     {
-        public static void Executar(string origem)
+        public static void Executar(string destino)
         {
             using var conn = DataBase.GetConnection();
             var cmd = conn.CreateCommand();
 
-            cmd.CommandText = "SELECT * FROM pacote WHERE origem = @origem";
-            cmd.Parameters.AddWithValue("@origem", origem);
+            cmd.CommandText = "SELECT * FROM pacote WHERE destino = @destino";
+            cmd.Parameters.AddWithValue("@destino", destino);
 
             using var reader = cmd.ExecuteReader();
 
@@ -26,7 +27,6 @@ namespace software
             {
                 Console.WriteLine("Pacote não encontrado");
             }
-
         }
     }
 }

@@ -1,7 +1,7 @@
 using MySql.Data.MySqlClient;
 using DotNetEnv;
 
-namespace software
+namespace bancoDados
 {
     public class DataBase
     {
