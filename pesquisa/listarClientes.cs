@@ -17,7 +17,7 @@ namespace pesquisa
 
             string connectionString = $"server={server};user={user};password={password};database={database}";
 
-            string sql = "SELECT * FROM cliente";
+            string sql = "SELECT id, nome, cpf, preferencias FROM cliente";
 
             try
             {
@@ -30,7 +30,7 @@ namespace pesquisa
                     {
                         while (reader.Read())
                         {
-                            Console.WriteLine("VAL" + reader["id"] + " -> " + reader["nome"] + " - " + "CPF " + reader["cpf"]);
+                            Console.WriteLine("VAL" + reader["id"] + " -> " + reader["nome"] + " - " + "CPF " + reader["cpf"] + " - " + reader["preferencias"]);
                         }
                     }
                 }

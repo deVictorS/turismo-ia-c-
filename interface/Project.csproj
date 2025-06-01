@@ -23,8 +23,9 @@
     <Compile Include="..\pesquisa\listarClientes.cs" />
     <Compile Include="..\pesquisa\listarPacotes.cs" />
     <Compile Include="..\pesquisa\buscarCliente.cs" />
-    <Compile Include="..\pesquisa\buscarPacoteDestino.cs" />
-    <Compile Include="..\pesquisa\buscarPacoteOrigem.cs" />
+    <Compile Include="..\pesquisa\buscarPacotesViagem.cs" />
+    <Compile Include="..\edit\editarCliente.cs" />
+    <!-- <Compile Include="..\pesquisa\buscarPacoteOrigem.cs" /> -->
 
 
 

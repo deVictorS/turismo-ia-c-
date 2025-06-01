@@ -30,7 +30,7 @@ namespace pesquisa
                     {
                         while (reader.Read())
                         {
-                            Console.WriteLine("TUR" + reader["id"] + " -> " + "Origem: " + reader["origem"] + " | " + "Destino: " + reader["destino"]);
+                            Console.WriteLine("\nTUR" + reader["id"] + " -> " + "Origem: " + reader["origem"] + " | " + "Destino: " + reader["destino"] + " | " + "Valor: " + reader["valor"] + " | " + "Descrição: " + reader["descricao"]);
                         }
                     }
                 }

@@ -1,0 +1,116 @@
+c:\Users\victo\OneDrive\Área de Trabalho\Projeto\obj\Debug\net9.0\Project.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\victo\OneDrive\Área de Trabalho\Projeto\obj\Debug\net9.0\Project.AssemblyInfoInputs.cache
+c:\Users\victo\OneDrive\Área de Trabalho\Projeto\obj\Debug\net9.0\Project.AssemblyInfo.cs
+c:\Users\victo\OneDrive\Área de Trabalho\Projeto\obj\Debug\net9.0\Project.csproj.CoreCompileInputs.cache
+c:\Users\victo\OneDrive\Área de Trabalho\Projeto\bin\Debug\net9.0\Project.exe
+C:\Users\victo\OneDrive\Área de Trabalho\Projeto\bin\Debug\net9.0\Project.deps.json
+C:\Users\victo\OneDrive\Área de Trabalho\Projeto\bin\Debug\net9.0\Project.runtimeconfig.json
+c:\Users\victo\OneDrive\Área de Trabalho\Projeto\bin\Debug\net9.0\Project.dll
+c:\Users\victo\OneDrive\Área de Trabalho\Projeto\bin\Debug\net9.0\Project.pdb
+c:\Users\victo\OneDrive\Área de Trabalho\Projeto\obj\Debug\net9.0\Project.dll
+c:\Users\victo\OneDrive\Área de Trabalho\Projeto\obj\Debug\net9.0\refint\Project.dll
+c:\Users\victo\OneDrive\Área de Trabalho\Projeto\obj\Debug\net9.0\Project.pdb
+C:\Users\victo\OneDrive\Área de Trabalho\Projeto\obj\Debug\net9.0\Project.genruntimeconfig.cache
+C:\Users\victo\OneDrive\Área de Trabalho\Projeto\obj\Debug\net9.0\ref\Project.dll
+c:\Users\victo\OneDrive\Área de Trabalho\Projeto\bin\Debug\net9.0\BouncyCastle.Cryptography.dll
+c:\Users\victo\OneDrive\Área de Trabalho\Projeto\bin\Debug\net9.0\Google.Protobuf.dll
+c:\Users\victo\OneDrive\Área de Trabalho\Projeto\bin\Debug\net9.0\K4os.Compression.LZ4.dll
+c:\Users\victo\OneDrive\Área de Trabalho\Projeto\bin\Debug\net9.0\K4os.Compression.LZ4.Streams.dll
+c:\Users\victo\OneDrive\Área de Trabalho\Projeto\bin\Debug\net9.0\K4os.Hash.xxHash.dll
+c:\Users\victo\OneDrive\Área de Trabalho\Projeto\bin\Debug\net9.0\MySql.Data.dll
+c:\Users\victo\OneDrive\Área de Trabalho\Projeto\bin\Debug\net9.0\System.Configuration.ConfigurationManager.dll
+c:\Users\victo\OneDrive\Área de Trabalho\Projeto\bin\Debug\net9.0\System.Diagnostics.EventLog.dll
+c:\Users\victo\OneDrive\Área de Trabalho\Projeto\bin\Debug\net9.0\System.Security.Cryptography.ProtectedData.dll
+c:\Users\victo\OneDrive\Área de Trabalho\Projeto\bin\Debug\net9.0\System.Security.Permissions.dll
+c:\Users\victo\OneDrive\Área de Trabalho\Projeto\bin\Debug\net9.0\System.Windows.Extensions.dll
+c:\Users\victo\OneDrive\Área de Trabalho\Projeto\bin\Debug\net9.0\ZstdSharp.dll
+c:\Users\victo\OneDrive\Área de Trabalho\Projeto\bin\Debug\net9.0\runtimes\win-x64\native\comerr64.dll
+c:\Users\victo\OneDrive\Área de Trabalho\Projeto\bin\Debug\net9.0\runtimes\win-x64\native\gssapi64.dll
+c:\Users\victo\OneDrive\Área de Trabalho\Projeto\bin\Debug\net9.0\runtimes\win-x64\native\k5sprt64.dll
+c:\Users\victo\OneDrive\Área de Trabalho\Projeto\bin\Debug\net9.0\runtimes\win-x64\native\krb5_64.dll
+c:\Users\victo\OneDrive\Área de Trabalho\Projeto\bin\Debug\net9.0\runtimes\win-x64\native\krbcc64.dll
+c:\Users\victo\OneDrive\Área de Trabalho\Projeto\bin\Debug\net9.0\runtimes\win\lib\net8.0\System.Diagnostics.EventLog.Messages.dll
+c:\Users\victo\OneDrive\Área de Trabalho\Projeto\bin\Debug\net9.0\runtimes\win\lib\net8.0\System.Diagnostics.EventLog.dll
+c:\Users\victo\OneDrive\Área de Trabalho\Projeto\bin\Debug\net9.0\runtimes\win\lib\net8.0\System.Windows.Extensions.dll
+c:\Users\victo\OneDrive\Área de Trabalho\Projeto\obj\Debug\net9.0\Project.csproj.AssemblyReference.cache
+c:\Users\victo\OneDrive\Área de Trabalho\Projeto\obj\Debug\net9.0\Project.sourcelink.json
+C:\Users\victo\OneDrive\Área de Trabalho\Projeto\obj\Debug\net9.0\Project.csproj.Up2Date
+c:\Users\victo\OneDrive\Área de Trabalho\Projeto\bin\Debug\net9.0\PhoneNumbers.dll
+c:\Users\victo\iCloudDrive\Projeto\bin\Debug\net9.0\Project.exe
+C:\Users\victo\iCloudDrive\Projeto\bin\Debug\net9.0\Project.deps.json
+C:\Users\victo\iCloudDrive\Projeto\bin\Debug\net9.0\Project.runtimeconfig.json
+c:\Users\victo\iCloudDrive\Projeto\bin\Debug\net9.0\Project.dll
+c:\Users\victo\iCloudDrive\Projeto\bin\Debug\net9.0\Project.pdb
+c:\Users\victo\iCloudDrive\Projeto\bin\Debug\net9.0\BouncyCastle.Cryptography.dll
+c:\Users\victo\iCloudDrive\Projeto\bin\Debug\net9.0\Google.Protobuf.dll
+c:\Users\victo\iCloudDrive\Projeto\bin\Debug\net9.0\K4os.Compression.LZ4.dll
+c:\Users\victo\iCloudDrive\Projeto\bin\Debug\net9.0\K4os.Compression.LZ4.Streams.dll
+c:\Users\victo\iCloudDrive\Projeto\bin\Debug\net9.0\K4os.Hash.xxHash.dll
+c:\Users\victo\iCloudDrive\Projeto\bin\Debug\net9.0\PhoneNumbers.dll
+c:\Users\victo\iCloudDrive\Projeto\bin\Debug\net9.0\MySql.Data.dll
+c:\Users\victo\iCloudDrive\Projeto\bin\Debug\net9.0\System.Configuration.ConfigurationManager.dll
+c:\Users\victo\iCloudDrive\Projeto\bin\Debug\net9.0\System.Diagnostics.EventLog.dll
+c:\Users\victo\iCloudDrive\Projeto\bin\Debug\net9.0\System.Security.Cryptography.ProtectedData.dll
+c:\Users\victo\iCloudDrive\Projeto\bin\Debug\net9.0\System.Security.Permissions.dll
+c:\Users\victo\iCloudDrive\Projeto\bin\Debug\net9.0\System.Windows.Extensions.dll
+c:\Users\victo\iCloudDrive\Projeto\bin\Debug\net9.0\ZstdSharp.dll
+c:\Users\victo\iCloudDrive\Projeto\bin\Debug\net9.0\runtimes\win-x64\native\comerr64.dll
+c:\Users\victo\iCloudDrive\Projeto\bin\Debug\net9.0\runtimes\win-x64\native\gssapi64.dll
+c:\Users\victo\iCloudDrive\Projeto\bin\Debug\net9.0\runtimes\win-x64\native\k5sprt64.dll
+c:\Users\victo\iCloudDrive\Projeto\bin\Debug\net9.0\runtimes\win-x64\native\krb5_64.dll
+c:\Users\victo\iCloudDrive\Projeto\bin\Debug\net9.0\runtimes\win-x64\native\krbcc64.dll
+c:\Users\victo\iCloudDrive\Projeto\bin\Debug\net9.0\runtimes\win\lib\net8.0\System.Diagnostics.EventLog.Messages.dll
+c:\Users\victo\iCloudDrive\Projeto\bin\Debug\net9.0\runtimes\win\lib\net8.0\System.Diagnostics.EventLog.dll
+c:\Users\victo\iCloudDrive\Projeto\bin\Debug\net9.0\runtimes\win\lib\net8.0\System.Windows.Extensions.dll
+c:\Users\victo\iCloudDrive\Projeto\obj\Debug\net9.0\Project.csproj.AssemblyReference.cache
+c:\Users\victo\iCloudDrive\Projeto\obj\Debug\net9.0\Project.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\victo\iCloudDrive\Projeto\obj\Debug\net9.0\Project.AssemblyInfoInputs.cache
+c:\Users\victo\iCloudDrive\Projeto\obj\Debug\net9.0\Project.AssemblyInfo.cs
+c:\Users\victo\iCloudDrive\Projeto\obj\Debug\net9.0\Project.csproj.CoreCompileInputs.cache
+c:\Users\victo\iCloudDrive\Projeto\obj\Debug\net9.0\Project.sourcelink.json
+C:\Users\victo\iCloudDrive\Projeto\obj\Debug\net9.0\Project.csproj.Up2Date
+c:\Users\victo\iCloudDrive\Projeto\obj\Debug\net9.0\Project.dll
+c:\Users\victo\iCloudDrive\Projeto\obj\Debug\net9.0\refint\Project.dll
+c:\Users\victo\iCloudDrive\Projeto\obj\Debug\net9.0\Project.pdb
+C:\Users\victo\iCloudDrive\Projeto\obj\Debug\net9.0\Project.genruntimeconfig.cache
+C:\Users\victo\iCloudDrive\Projeto\obj\Debug\net9.0\ref\Project.dll
+c:\Users\victo\iCloudDrive\Projeto\turismo-ia-c-\bin\Debug\net9.0\Project.exe
+C:\Users\victo\iCloudDrive\Projeto\turismo-ia-c-\bin\Debug\net9.0\Project.deps.json
+C:\Users\victo\iCloudDrive\Projeto\turismo-ia-c-\bin\Debug\net9.0\Project.runtimeconfig.json
+c:\Users\victo\iCloudDrive\Projeto\turismo-ia-c-\bin\Debug\net9.0\Project.dll
+c:\Users\victo\iCloudDrive\Projeto\turismo-ia-c-\bin\Debug\net9.0\Project.pdb
+c:\Users\victo\iCloudDrive\Projeto\turismo-ia-c-\bin\Debug\net9.0\BouncyCastle.Cryptography.dll
+c:\Users\victo\iCloudDrive\Projeto\turismo-ia-c-\bin\Debug\net9.0\Google.Protobuf.dll
+c:\Users\victo\iCloudDrive\Projeto\turismo-ia-c-\bin\Debug\net9.0\K4os.Compression.LZ4.dll
+c:\Users\victo\iCloudDrive\Projeto\turismo-ia-c-\bin\Debug\net9.0\K4os.Compression.LZ4.Streams.dll
+c:\Users\victo\iCloudDrive\Projeto\turismo-ia-c-\bin\Debug\net9.0\K4os.Hash.xxHash.dll
+c:\Users\victo\iCloudDrive\Projeto\turismo-ia-c-\bin\Debug\net9.0\PhoneNumbers.dll
+c:\Users\victo\iCloudDrive\Projeto\turismo-ia-c-\bin\Debug\net9.0\MySql.Data.dll
+c:\Users\victo\iCloudDrive\Projeto\turismo-ia-c-\bin\Debug\net9.0\System.Configuration.ConfigurationManager.dll
+c:\Users\victo\iCloudDrive\Projeto\turismo-ia-c-\bin\Debug\net9.0\System.Diagnostics.EventLog.dll
+c:\Users\victo\iCloudDrive\Projeto\turismo-ia-c-\bin\Debug\net9.0\System.Security.Cryptography.ProtectedData.dll
+c:\Users\victo\iCloudDrive\Projeto\turismo-ia-c-\bin\Debug\net9.0\System.Security.Permissions.dll
+c:\Users\victo\iCloudDrive\Projeto\turismo-ia-c-\bin\Debug\net9.0\System.Windows.Extensions.dll
+c:\Users\victo\iCloudDrive\Projeto\turismo-ia-c-\bin\Debug\net9.0\ZstdSharp.dll
+c:\Users\victo\iCloudDrive\Projeto\turismo-ia-c-\bin\Debug\net9.0\runtimes\win-x64\native\comerr64.dll
+c:\Users\victo\iCloudDrive\Projeto\turismo-ia-c-\bin\Debug\net9.0\runtimes\win-x64\native\gssapi64.dll
+c:\Users\victo\iCloudDrive\Projeto\turismo-ia-c-\bin\Debug\net9.0\runtimes\win-x64\native\k5sprt64.dll
+c:\Users\victo\iCloudDrive\Projeto\turismo-ia-c-\bin\Debug\net9.0\runtimes\win-x64\native\krb5_64.dll
+c:\Users\victo\iCloudDrive\Projeto\turismo-ia-c-\bin\Debug\net9.0\runtimes\win-x64\native\krbcc64.dll
+c:\Users\victo\iCloudDrive\Projeto\turismo-ia-c-\bin\Debug\net9.0\runtimes\win\lib\net8.0\System.Diagnostics.EventLog.Messages.dll
+c:\Users\victo\iCloudDrive\Projeto\turismo-ia-c-\bin\Debug\net9.0\runtimes\win\lib\net8.0\System.Diagnostics.EventLog.dll
+c:\Users\victo\iCloudDrive\Projeto\turismo-ia-c-\bin\Debug\net9.0\runtimes\win\lib\net8.0\System.Windows.Extensions.dll
+c:\Users\victo\iCloudDrive\Projeto\turismo-ia-c-\obj\Debug\net9.0\Project.csproj.AssemblyReference.cache
+c:\Users\victo\iCloudDrive\Projeto\turismo-ia-c-\obj\Debug\net9.0\Project.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\victo\iCloudDrive\Projeto\turismo-ia-c-\obj\Debug\net9.0\Project.AssemblyInfoInputs.cache
+c:\Users\victo\iCloudDrive\Projeto\turismo-ia-c-\obj\Debug\net9.0\Project.AssemblyInfo.cs
+c:\Users\victo\iCloudDrive\Projeto\turismo-ia-c-\obj\Debug\net9.0\Project.csproj.CoreCompileInputs.cache
+c:\Users\victo\iCloudDrive\Projeto\turismo-ia-c-\obj\Debug\net9.0\Project.sourcelink.json
+C:\Users\victo\iCloudDrive\Projeto\turismo-ia-c-\obj\Debug\net9.0\Project.csproj.Up2Date
+c:\Users\victo\iCloudDrive\Projeto\turismo-ia-c-\obj\Debug\net9.0\Project.dll
+c:\Users\victo\iCloudDrive\Projeto\turismo-ia-c-\obj\Debug\net9.0\refint\Project.dll
+c:\Users\victo\iCloudDrive\Projeto\turismo-ia-c-\obj\Debug\net9.0\Project.pdb
+C:\Users\victo\iCloudDrive\Projeto\turismo-ia-c-\obj\Debug\net9.0\Project.genruntimeconfig.cache
+C:\Users\victo\iCloudDrive\Projeto\turismo-ia-c-\obj\Debug\net9.0\ref\Project.dll
+c:\Users\victo\iCloudDrive\Projeto\turismo-ia-c-\bin\Debug\net9.0\DotNetEnv.dll
+c:\Users\victo\iCloudDrive\Projeto\turismo-ia-c-\bin\Debug\net9.0\Sprache.dll

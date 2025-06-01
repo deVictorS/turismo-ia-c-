@@ -1,19 +1,16 @@
-using System;
-using MySql.Data.MySqlClient;
-using Org.BouncyCastle.Crypto.Engines;
 using bancoDados;
 
 namespace pesquisa
 {
     public class buscarCliente
     {
-        public static void Executar(string cpf2)
+        public static void Executar(string cpfBuscaCliente)
         {
             using var conn = DataBase.GetConnection();
             var cmd = conn.CreateCommand();
 
-            cmd.CommandText = "SELECT * FROM cliente WHERE cpf = @cpf";
-            cmd.Parameters.AddWithValue("@cpf", cpf2);
+            cmd.CommandText = "SELECT id, nome, cpf, preferencias FROM cliente WHERE cpf = @cpf";
+            cmd.Parameters.AddWithValue("@cpf", cpfBuscaCliente);
 
             using var reader = cmd.ExecuteReader();
 
@@ -21,11 +18,13 @@ namespace pesquisa
             {
                 Console.WriteLine("\n---CLIENTE ENCONTRADO---");
                 Console.WriteLine($"ID: VAL{reader["id"]}");
-                Console.WriteLine($"Nome: {reader["nome"]}");
+                Console.WriteLine($"NOME: {reader["nome"]}");
+                Console.WriteLine($"CPF: {reader["cpf"]}");
+                Console.WriteLine($"PREFERÊNCIAS: {reader["preferencias"]}");
             }
             else
             {
-                Console.WriteLine("Cliente não encontrado");
+                Console.WriteLine("\nCLIENTE NÃO ENCONTRADO");
             }
         } 
     }
