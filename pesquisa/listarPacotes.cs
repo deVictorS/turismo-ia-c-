@@ -10,10 +10,10 @@ namespace pesquisa
         {
             Env.TraversePath().Load();
 
-            string server = Environment.GetEnvironmentVariable("DB_SERVER");
-            string user = Environment.GetEnvironmentVariable("DB_USER");
-            string password = Environment.GetEnvironmentVariable("DB_PASSWORD");
-            string database = Environment.GetEnvironmentVariable("DB_NAME");
+            string server = Environment.GetEnvironmentVariable("DB_SERVER") ?? throw new InvalidOperationException("DB_SERVER environment variable is not set.");
+            string user = Environment.GetEnvironmentVariable("DB_USER") ?? throw new InvalidOperationException("DB_USER environment variable is not set.");
+            string password = Environment.GetEnvironmentVariable("DB_PASSWORD") ?? throw new InvalidOperationException("DB_PASSWORD environment variable is not set.");
+            string database = Environment.GetEnvironmentVariable("DB_NAME") ?? throw new InvalidOperationException("DB_NAME environment variable is not set.");
 
             string connectionString = $"server={server};user={user};password={password};database={database}";
 

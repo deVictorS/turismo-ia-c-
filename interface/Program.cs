@@ -16,29 +16,27 @@ namespace software
         static async Task Main(string[] args)
         {   
             Console.Clear();
-            Console.ForegroundColor = ConsoleColor.Cyan;
             Console.WriteLine("╔════════════════════════════════════╗");
             Console.WriteLine("║   SISTEMA DE RECOMENDAÇÃO POR IA   ║");
             Console.WriteLine("╚════════════════════════════════════╝");
-            Console.ResetColor();
 
             string opcao;
 
             do
             {   
-                Console.ForegroundColor = ConsoleColor.Yellow;
-                Console.WriteLine("\n----MENU PRINCIPAL----");
-                Console.WriteLine("1 - CADASTRAR CLIENTE");
-                Console.WriteLine("2 - CADASTRAR PACOTE");
-                Console.WriteLine("3 - RECOMENDAR PACOTE (IA)");
-                Console.WriteLine("4 - LISTAR CLIENTES");
-                Console.WriteLine("5 - LISTAR PACOTES");
-                Console.WriteLine("6 - BUSCAR POR CLIENTE");
+                Console.WriteLine("\n            MENU PRINCIPAL       ");
+                Console.WriteLine("     ╔══════════════════════════╗");
+                Console.WriteLine("     ║1 - CADASTRAR CLIENTE     ║");
+                Console.WriteLine("     ║2 - CADASTRAR PACOTE      ║");
+                Console.WriteLine("     ║3 - RECOMENDAR PACOTE (IA)║");
+                Console.WriteLine("     ║4 - LISTAR CLIENTES       ║");
+                Console.WriteLine("     ║5 - LISTAR PACOTES        ║");
+                Console.WriteLine("     ║6 - BUSCAR POR CLIENTE    ║");
                 // Console.WriteLine("7 - BUSCAR PACOTE PELA ORIGEM");
-                Console.WriteLine("7 - BUSCAR POR PACOTE");
-                Console.WriteLine("8 - EDITAR CLIENTE");
-                Console.WriteLine("0 - SAIR");
-                Console.ResetColor();
+                Console.WriteLine("     ║7 - BUSCAR POR PACOTE     ║");
+                Console.WriteLine("     ║8 - EDITAR CLIENTE        ║");
+                Console.WriteLine("     ║0 - SAIR                  ║");
+                Console.WriteLine("     ╚══════════════════════════╝");
                 //editar pacote
                 //editar cliente
 
@@ -56,16 +54,30 @@ namespace software
                         break;
 
                     case "3":
-                        Console.WriteLine("Digite o CPF do cliente: ");
-                    
-                        string cpf = Console.ReadLine();
+                        while (true)
+                        {
+                            Console.WriteLine("\nDigite o CPF do cliente ou pressione 0 para voltar ao menu principal: ");
+                            string cpf = Console.ReadLine();
 
-                        string Preferencias = BuscarPrefCpf.Executar(cpf);
+                            if (cpf == "0")
+                            {
+                                Console.WriteLine("\nVOLTANDO AO MENU. . .");
+                                break;
+                            }
 
-                        Console.WriteLine($"\n---PREFERÊNCIAS DO CLIENTE---: {Preferencias}");
 
-                        string recomendacao = await RecomendadorIA.Executar(Preferencias);
-                        Console.WriteLine($"\n---RECOMENDAÇÃO DA IA---: {recomendacao}");
+                            var cliente = BuscarPrefCpf.Executar(cpf);
+                            if (cliente != null){}
+                            {
+                                var (nome, preferencias, cidadeCliente) = cliente.Value;
+
+                                Console.WriteLine($"\n---PREFERÊNCIAS DE {nome}---: {preferencias}");
+
+                                string recomendacao = await RecomendadorIA.Executar(nome ?? "", preferencias ?? "", cidadeCliente ?? "");
+                                Console.WriteLine($"\n---RECOMENDAÇÃO DA IA---:\n{recomendacao}");
+                            }
+                            
+                        }
                         break;
 
                     case "4":
@@ -87,20 +99,19 @@ namespace software
                             cpfBuscaCliente = Console.ReadLine();
 
                             if (cpfBuscaCliente == "0")
-                            {
+                            { 
                                 Console.WriteLine("\nVOLTANDO AO MENU. . .");
                                 break;
                             }
 
                             if (string.IsNullOrWhiteSpace(cpfBuscaCliente) || cpfBuscaCliente.Length != 14 || !regexCpf.IsMatch(cpfBuscaCliente))
-                            {
+                            {   
                                 Console.WriteLine("\nCPF INVÁLIDO ");
                                 continue;
                             }
 
                             Console.WriteLine($"\nPESQUISANDO POR: {cpfBuscaCliente}");
                             buscarCliente.Executar(cpfBuscaCliente);
-                            break;
 
                         }
                     break;
@@ -116,24 +127,23 @@ namespace software
 
                         while (true)
                         {
-                            Console.WriteLine("Digite a cidade do pacote ou pressione 0 para voltar para o menu principal: ");
+                            Console.WriteLine("\nDigite o ID do pacote (somente o número), a cidade ou pressione 0 para voltar para o menu principal: ");
                             cidade = Console.ReadLine().ToUpper();
 
                             if (cidade == "0")
-                            {
+                            {   
                                 Console.WriteLine("\nVOLTANDO AO MENU. . .");
                                 break;
                             }
 
                             if (string.IsNullOrWhiteSpace(cidade))
-                            {
+                            {   
                                 Console.WriteLine("\nCIDADE INVÁLIDA");
                                 continue;
                             }
                             
                             Console.WriteLine($"\nPESQUISANDO POR: {cidade}");
                             buscarPacotesViagem.Executar(cidade);
-                            break;
 
 
                         }
@@ -154,7 +164,7 @@ namespace software
 
                             if (string.IsNullOrWhiteSpace(cpfBuscaCliente))
                             {
-                                Console.WriteLine("\n CPF INVÁLIDO");
+                                Console.WriteLine("\nCPF INVÁLIDO");
                                 continue;
                             }
 
@@ -164,16 +174,15 @@ namespace software
                             string pref = Console.ReadLine().ToUpper();
                             Console.WriteLine($"\nATUALIZANDO PARA: {pref}");
                             editarCliente.Executar(cpfBuscaCliente, pref);
-                            break;
                         }
                         break;
 
                     case "0":
-                        Console.WriteLine("ENCERRANDO O PROGRAMA. . .");
+                        Console.WriteLine("\nENCERRANDO O PROGRAMA. . .");
                         break;
 
                     default:
-                        Console.WriteLine("OPÇÃO INVÁLIDA. TENTE NOVAMENTE.");
+                        Console.WriteLine("\nOPÇÃO INVÁLIDA. TENTE NOVAMENTE.");
                         break;
 
                 }
