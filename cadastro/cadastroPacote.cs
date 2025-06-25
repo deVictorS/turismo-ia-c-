@@ -32,16 +32,16 @@ namespace cadastro
             Console.WriteLine("Data de ida (XX/XX/XX): ");
             pacote.DataIda = Console.ReadLine();
 
-            Console.WriteLine("Hora de ida (XX/XX/XX): ");
+            Console.WriteLine("Hora de ida (xx:xx): ");
             pacote.HoraIda = Console.ReadLine();
 
             Console.WriteLine("Data de retorno (XX/XX/XX): ");
             pacote.DataVolta = Console.ReadLine();
 
-            Console.WriteLine("Hora de retorno (XX/XX/XX): ");
+            Console.WriteLine("Hora de retorno (xx:xx): ");
             pacote.HoraVolta = Console.ReadLine();
 
-            Console.WriteLine("Valor do pacote (R$X,X): ");
+            Console.WriteLine("Valor do pacote (R$X,XX): ");
             pacote.Valor = Console.ReadLine();
 
             Console.WriteLine("Parcelamento (somente números): ");

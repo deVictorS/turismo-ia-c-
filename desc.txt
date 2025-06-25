@@ -1,0 +1,4 @@
+1 - O que é? Uma das funcionalidades do software proposto no projeto escrito
+2 - Para que? Atender a necessidade organizacional da Valoures Turismo -> Recomendar pacotes aos clientes de maneira mais assertiva
+3 - C#, MySQL, API CHATGPT
+4 - Foco em boas práticas; uso de métodos, classes e estrutura de dados.
