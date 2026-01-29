@@ -2,7 +2,9 @@
 
 # Projeto: Turismo Inteligente com LLM E C#
 
-### Sobre o projeto
+</div>
+
+## Sobre o projeto
 
 Este projeto é um **software de recomendação de pacotes de viagem**, desenvolvido em **C#**, integrado com **MySQL** e a **API do ChatGPT**. O sistema analisa as preferências de viagem do cliente e sugere os destinos mais compatíveis, focando no desenvolvimento inteligente, experiência personalizada e automação do serviço.
 
