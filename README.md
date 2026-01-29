@@ -1,15 +1,15 @@
 <div align="center"> 
 
-# Smart Tourism with AI in C#
+# Projeto: Turismo Inteligente com LLM E C#
 
-### Travel Package Recommendation Algorithm
+### Sobre o projeto
 
-This project is a **travel package recommendation software**, developed in **C#**, integrated with **MySQL** and the **ChatGPT API**. The system analyzes the customer's travel preferences and suggests the most compatible destinations, focusing on intelligent development, personalized experience, and service automation.
+Este projeto é um **software de recomendação de pacotes de viagem**, desenvolvido em **C#**, integrado com **MySQL** e a **API do ChatGPT**. O sistema analisa as preferências de viagem do cliente e sugere os destinos mais compatíveis, focando no desenvolvimento inteligente, experiência personalizada e automação do serviço.
 
 ---
 </div>
 
-## Technologies Used
+## Tecnologias utilizadas
 - C# (.NET)
 - MySQL
 - ChatGPT API (OpenAI)
@@ -18,10 +18,11 @@ This project is a **travel package recommendation software**, developed in **C#*
 
 ---
 
-## Features
-- Customer and travel preference registration  
-- Data storage in a relational database (MySQL)  
-- Querying the OpenAI API for analysis and recommendations  
-- Personalized package suggestions based on natural language input
+## Objetivos
+
+- Utilizar a API do ChatGPT para gerar recomendações personalizadas e interações automatizadas  
+- Aprimorar a experiência do usuário por meio de sugestões mais precisas e contextualizadas  
+- Automatizar processos de atendimento e recomendação no setor de turismo 
+- Aplicar conceitos de engenharia de software, integração de APIs e sistemas inteligentes
 
 ---
