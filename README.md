@@ -14,11 +14,11 @@ Este projeto é um **software de recomendação de pacotes de viagem**, desenvol
 </div>
 
 ## Tecnologias utilizadas
-- C# (.NET)
-- MySQL
-- ChatGPT API (OpenAI)
-- JSON
-- Console Application
+- **C# (.NET)**
+- **MySQL**
+- **ChatGPT API (OpenAI)**
+- **JSON**
+- **Console Application**
 
 ---
 
